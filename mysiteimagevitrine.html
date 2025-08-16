@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Vitrine Professionnel</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f9fafb;
+        color: #333;
+      }
+      header {
+        background: #2563eb;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2em;
+      }
+      nav {
+        margin-top: 10px;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      .hero {
+        text-align: center;
+        padding: 60px 20px;
+        background: #3b82f6;
+        color: white;
+      }
+      .hero h2 {
+        font-size: 2em;
+        margin-bottom: 15px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .whatsapp {
+        background: #25d366;
+        color: white;
+      }
+      .primary {
+        background: white;
+        color: #2563eb;
+      }
+
+      .section {
+        max-width: 1000px;
+        margin: auto;
+        padding: 60px 20px;
+      }
+      .section h3 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.8em;
+      }
+      .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      .card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        flex: 1 1 250px;
+        text-align: center;
+      }
+      .card h4 {
+        margin-top: 0;
+      }
+
+      footer {
+        background: #2563eb;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Votre Site Vitrine</h1>
+      <p>Création de sites modernes pour petites entreprises</p>
+      <nav>
+        <a href="#about">À propos</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Tarifs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <h2>Donnez vie à votre entreprise en ligne</h2>
+      <p>
+        Nous créons des sites vitrines simples, efficaces et professionnels
+        adaptés à votre activité.
+      </p>
+      <a href="https://wa.me/221709205660" target="_blank" class="btn whatsapp"
+        >💬 Discuter sur WhatsApp</a
+      >
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <h3>À propos de nous</h3>
+      <p style="text-align: center; max-width: 700px; margin: auto">
+        Nous aidons les petites entreprises à se digitaliser grâce à des sites
+        vitrines attractifs et adaptés. Notre mission : rendre votre activité
+        visible, crédible et accessible en ligne.
+      </p>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section" style="background: #f3f4f6">
+      <h3>Nos Services</h3>
+      <div class="services">
+        <div class="card">
+          <h4>Création de site vitrine</h4>
+          <p>Un site moderne et responsive pour présenter votre activité.</p>
+        </div>
+        <div class="card">
+          <h4>Maintenance</h4>
+          <p>Mises à jour régulières, sécurité et performance de votre site.</p>
+        </div>
+        <div class="card">
+          <h4>Optimisation SEO</h4>
+          <p>
+            Améliorez votre visibilité sur Google et attirez plus de clients.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tarifs -->
+    <section id="pricing" class="section">
+      <h3>Nos Tarifs</h3>
+      <div class="services">
+        <div class="card">
+          <h4>Pack Basique</h4>
+          <p>Site vitrine simple (1 page)</p>
+          <p><strong>50 000 FCFA</strong></p>
+          <a
+            href="https://wa.me/221709205660"
+            target="_blank"
+            class="btn whatsapp"
+            >Commander</a
+          >
+        </div>
+        <div class="card">
+          <h4>Pack Standard</h4>
+          <p>Site vitrine complet (3 pages + formulaire contact)</p>
+          <p><strong>100 000 FCFA</strong></p>
+          <a
+            href="https://wa.me/221709205660"
+            target="_blank"
+            class="btn whatsapp"
+            >Commander</a
+          >
+        </div>
+        <div class="card">
+          <h4>Pack Premium</h4>
+          <p>Site vitrine + SEO + support 3 mois</p>
+          <p><strong>150 000 FCFA</strong></p>
+          <a
+            href="https://wa.me/221709205660"
+            target="_blank"
+            class="btn whatsapp"
+            >Commander</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section
+      id="contact"
+      class="section"
+      style="background: #f3f4f6; text-align: center"
+    >
+      <h3>Contactez-nous</h3>
+      <p>
+        Une question ? Un projet ? Cliquez ci-dessous pour discuter directement
+        avec nous sur WhatsApp.
+      </p>
+      <a href="https://wa.me/221709205660" target="_blank" class="btn whatsapp"
+        >💬 Discuter maintenant</a
+      >
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Votre Site Vitrine. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
